@@ -1,0 +1,87 @@
+﻿body{
+    overflow:scroll;
+}
+
+.careerWidth{
+    width: 95%;
+    position: relative;
+    left: 20px;
+}
+
+.customInlineBlock {
+    display:inline-block;
+}
+
+
+#navigate {
+    position:absolute;
+    right:0;
+    top:156px;
+}
+
+#container{
+    margin-top:10px;
+ 
+}
+
+.fullWidth{
+    width:100%;
+}
+
+footer
+{
+    width:100%;
+    margin-top:30px;
+    height:50px;
+}
+
+footer p
+{
+    display:inline-block;
+    margin-top: 20px; 
+}
+
+#footerNav
+{
+    position:relative;
+    vertical-align:bottom;
+    float:right;
+    text-align:right;
+}
+
+.thirdWidth
+{
+    width:28%;
+    border: 1px solid #0064Df;
+    margin: 10px 2% 0 2%;
+    font-size:20px;
+    padding:5px;
+}
+
+.worksamples
+{
+    width:37%;
+    margin: 15px 5% 15px 5%;
+    font-size:20px;
+}
+
+.worksamples p
+{
+    text-align:center;
+}
+
+.worksamples img
+{
+    width: 100%;
+}
+
+#footerNav span
+{
+    cursor:pointer;
+    color:#0064Df;
+}
+
+#footerNav span:hover
+{
+    color:#000;
+}
