@@ -37,7 +37,7 @@ namespace Week7CodeChallenge.Controllers
         [HttpPost]
         public ActionResult Contact(Models.Week7ChallengeContactsTable contact)
         {
-            Models.sp6TimEntities2 db = new Models.sp6TimEntities2();
+            Models.sp6TimEntities3 db = new Models.sp6TimEntities3();
 
             db.Week7ChallengeContactsTable.Add(contact);
             db.SaveChanges();

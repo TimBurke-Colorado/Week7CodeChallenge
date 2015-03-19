@@ -14,7 +14,7 @@ namespace Week7CodeChallenge.Models
     
     public partial class Week7ChallengeContactsTable
     {
-        public int Primary_Key { get; set; }
+        public int ContactID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
